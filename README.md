@@ -20,11 +20,15 @@ listening to the radio needs to be added, however may be too dificult
 
 listening to youtube playlists needs to be added, but may be (almost) impossible
 
-weather needs to be added, should be relatively simple.
+weather needs to be added, should be relatively simple directly from the met office
 
 next bus needs to be added, may be (almost) impossible
 
 more news sources need to be added.
 
 mute needs to be added
+
+calculator needs to be finished, however it may prove to be too inefficient and have to be ignored.
+
+volume change needs to be added
 
