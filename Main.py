@@ -1,7 +1,8 @@
 #from pocketsphinx import LiveSpeech
 import string
 import youtubeFetch
-import texttospeech
+#import texttospeech
+import petestts as texttospeech
 import newsFetch
 import dictionaryFetch
 import reminders
@@ -112,3 +113,4 @@ def analyseSpeech(phrase):
     #except:
         #return()
 analyseSpeech(shortenSpeech("blah blah blah blhasdfgbdsv sdfbsd dxv assistant asdfghwijkjhgf wiki asdfghgf"))
+
