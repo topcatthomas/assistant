@@ -1,5 +1,7 @@
 import pyttsx3
 import time
+
+
 def tts(text):
     engine = pyttsx3.init()
     rate = engine.getProperty('rate')  # getting details of current speaking rate

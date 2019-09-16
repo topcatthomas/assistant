@@ -2,7 +2,8 @@
 import string
 import getTime
 import youtubeFetch
-import texttospeech
+#import texttospeech
+import petestts as texttospeech
 import newsFetch
 import dictionaryFetch
 import reminders
@@ -109,7 +110,7 @@ def analyseSpeech(phrase):
                 texttospeech.tts("sorry, I don't understand")
         elif "time" in phrase:
             texttospeech.tts(getTime.returnTime())
-        
+
 
 
 
