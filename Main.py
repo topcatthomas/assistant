@@ -1,5 +1,6 @@
 #from pocketsphinx import LiveSpeech
 import string
+import getTime
 import youtubeFetch
 import texttospeech
 import newsFetch
@@ -106,9 +107,12 @@ def analyseSpeech(phrase):
                 texttospeech.tts(wikipediaFetch.WikiFetch(phrases))
             else:
                 texttospeech.tts("sorry, I don't understand")
+        elif "time" in phrase:
+            texttospeech.tts(getTime.returnTime())
+        
 
 
 
     #except:
         #return()
-analyseSpeech(shortenSpeech("blah blah blah blhasdfgbdsv sdfbsd dxv assistant asdfghwijkjhgf wiki asdfghgf"))
+analyseSpeech(shortenSpeech("assistant  assistant definition"))
